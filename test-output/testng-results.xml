@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-25T11:04:51 IST" name="Suite" finished-at="2021-03-25T11:08:25 IST" duration-ms="213705">
+    <groups>
+    </groups>
+    <test started-at="2021-03-25T11:04:51 IST" name="CMC ADMIN LOGIN TESTCASES" finished-at="2021-03-25T11:08:25 IST" duration-ms="213705">
+      <class name="CMCadmintest.Visitorpagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CMCadmintest.Visitorpagetest@b62d79]" started-at="2021-03-25T11:07:25 IST" name="setup" finished-at="2021-03-25T11:08:00 IST" duration-ms="35236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addvisitordetails([Ljava.lang.String;)[pri:0, instance:CMCadmintest.Visitorpagetest@b62d79]" started-at="2021-03-25T11:08:00 IST" name="addvisitordetails" data-provider="getVISTestdata" finished-at="2021-03-25T11:08:25 IST" duration-ms="24610" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@423b2b62]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addvisitordetails -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CMCadmintest.Visitorpagetest@b62d79]" started-at="2021-03-25T11:08:25 IST" name="teardown" finished-at="2021-03-25T11:08:25 IST" duration-ms="343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CMCadmintest.Visitorpagetest -->
+      <class name="CMCadmintest.Loginpagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:04:51 IST" name="setup" finished-at="2021-03-25T11:05:16 IST" duration-ms="24929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:16 IST" name="logintest" finished-at="2021-03-25T11:05:37 IST" duration-ms="21027" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:37 IST" name="teardown" finished-at="2021-03-25T11:05:39 IST" duration-ms="1410" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:39 IST" name="setup" finished-at="2021-03-25T11:05:47 IST" duration-ms="8034" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifylogo()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:47 IST" name="verifylogo" finished-at="2021-03-25T11:05:47 IST" duration-ms="294" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:47 IST" name="teardown" finished-at="2021-03-25T11:05:48 IST" duration-ms="840" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:48 IST" name="setup" finished-at="2021-03-25T11:05:55 IST" duration-ms="6989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifytitle()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:55 IST" name="verifytitle" finished-at="2021-03-25T11:05:55 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifytitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CMCadmintest.Loginpagetest@cad498c]" started-at="2021-03-25T11:05:55 IST" name="teardown" finished-at="2021-03-25T11:05:56 IST" duration-ms="843" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CMCadmintest.Loginpagetest -->
+      <class name="CMCadmintest.Frontofficepagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CMCadmintest.Frontofficepagetest@2accdbb5]" started-at="2021-03-25T11:06:20 IST" name="setup" finished-at="2021-03-25T11:06:49 IST" duration-ms="29217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="frontofficetest()[pri:0, instance:CMCadmintest.Frontofficepagetest@2accdbb5]" started-at="2021-03-25T11:06:49 IST" name="frontofficetest" finished-at="2021-03-25T11:06:53 IST" duration-ms="3441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- frontofficetest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CMCadmintest.Frontofficepagetest@2accdbb5]" started-at="2021-03-25T11:06:53 IST" name="teardown" finished-at="2021-03-25T11:06:53 IST" duration-ms="393" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:CMCadmintest.Frontofficepagetest@2accdbb5]" started-at="2021-03-25T11:06:53 IST" name="setup" finished-at="2021-03-25T11:07:22 IST" duration-ms="28435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyfrontoffice()[pri:0, instance:CMCadmintest.Frontofficepagetest@2accdbb5]" started-at="2021-03-25T11:07:22 IST" name="verifyfrontoffice" finished-at="2021-03-25T11:07:22 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyfrontoffice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CMCadmintest.Frontofficepagetest@2accdbb5]" started-at="2021-03-25T11:07:22 IST" name="teardown" finished-at="2021-03-25T11:07:22 IST" duration-ms="246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CMCadmintest.Frontofficepagetest -->
+      <class name="CMCadmintest.Homepagetest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:CMCadmintest.Homepagetest@1e6454ec]" started-at="2021-03-25T11:05:56 IST" name="setup" finished-at="2021-03-25T11:06:19 IST" duration-ms="22772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyhomepage()[pri:0, instance:CMCadmintest.Homepagetest@1e6454ec]" started-at="2021-03-25T11:06:19 IST" name="verifyhomepage" finished-at="2021-03-25T11:06:19 IST" duration-ms="446" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyhomepage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:CMCadmintest.Homepagetest@1e6454ec]" started-at="2021-03-25T11:06:19 IST" name="teardown" finished-at="2021-03-25T11:06:20 IST" duration-ms="1263" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- CMCadmintest.Homepagetest -->
+    </test> <!-- CMC ADMIN LOGIN TESTCASES -->
+  </suite> <!-- Suite -->
+</testng-results>
